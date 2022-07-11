@@ -2,10 +2,13 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
 \global\let\oldnewlabel\newlabel
 \gdef\newlabel#1#2{\newlabelxx{#1}#2}
 \gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
 \let\newlabel\oldnewlabel
 \fi}
 \fi}
@@ -19,18 +22,14 @@
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2}Methods, Observations, Simulations etc.}{1}{section.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Maths}{1}{subsection.2.1}\protected@file@percent }
-\newlabel{sec:maths}{{2.1}{1}{}{subsection.2.1}{}}
+\newlabel{sec:maths}{{2.1}{1}{Maths}{subsection.2.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces This is an example table. Captions appear above each table. Remember to define the quantities, symbols and units used.}}{1}{table.1}\protected@file@percent }
 \newlabel{tab:example_table}{{1}{1}{This is an example table. Captions appear above each table. Remember to define the quantities, symbols and units used}{table.1}{}}
-\newlabel{eq:quadratic}{{1}{1}{}{equation.1}{}}
+\newlabel{eq:quadratic}{{1}{1}{Maths}{equation.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Figures and tables}{1}{subsection.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Conclusions}{1}{section.3}\protected@file@percent }
-\bibcite{vanDijk1902}{{1}{1902}{{{\VAN  {Dijk}{Van}{van}}~Dijk}}{{{\VAN  {Dijk}{Van}{van}}~Dijk}}}
-\bibcite{Fournier1901}{{2}{1901}{{Fournier}}{{Fournier}}}
-\bibcite{delaGuarde1904}{{3}{1904}{{{\VAN  {Guarde}{De la}{de la}}~Guarde}}{{{\VAN  {Guarde}{De la}{de la}}~Guarde}}}
-\bibcite{deLaguarde1903}{{4}{1903}{{{\VAN  {Laguarde}{De}{de}}~Laguarde}}{{{\VAN  {Laguarde}{De}{de}}~Laguarde}}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces This is an example figure. Captions appear below each figure. Give enough detail for the reader to understand what they're looking at, but leave detailed discussion to the main body of the text.}}{2}{figure.1}\protected@file@percent }
 \newlabel{fig:example_figure}{{1}{2}{This is an example figure. Captions appear below each figure. Give enough detail for the reader to understand what they're looking at, but leave detailed discussion to the main body of the text}{figure.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {A}Some extra material}{2}{section.A1}\protected@file@percent }
-\newlabel{lastpage}{{A}{2}{}{section.A1}{}}
+\newlabel{lastpage}{{A}{2}{Some extra material}{section.A1}{}}
 \gdef \@abspage@last{2}
