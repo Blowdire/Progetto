@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex mnras_template"] 1657549156 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1657549160
+["bibtex mnras_template"] 1657549156 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1657626220
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/bibtex/bst/mnras/mnras.bst" 1591886186 43376 8463aa2cc1948e346d5641ca59bb4619 ""
   "example.bib" 1657108892 787 254cb0d9dfcd4686d7da9bd2c0a919ee ""
-  "mnras_template.aux" 1657549159 2587 929a48c895a1faacd0f4cee547a22b4a "pdflatex"
+  "mnras_template.aux" 1657626219 2587 929a48c895a1faacd0f4cee547a22b4a ""
   (generated)
   "mnras_template.bbl"
   "mnras_template.blg"
-["pdflatex"] 1657549157 "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex" "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.pdf" "mnras_template" 1657549160
+["pdflatex"] 1657626216 "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex" "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.pdf" "mnras_template" 1657626220
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm0900.tfm" 993062120 3156 6d4f5755d77638125f6f89de4f3bb757 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm" 1233951848 1496 c79f6914c6d39ffb3759967363d1be79 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm" 1233951848 1516 a3bf6a5e7ec4401b1f52092dfaaed242 ""
@@ -150,13 +150,13 @@
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/xstring/xstring.sty" 1626884962 123 a302f2c651a95033260db60e51527ae8 ""
   "example.pdf" 1657180299 25336 b509381da1796fa26da547990eab83d5 ""
-  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.aux" 1657549159 2587 929a48c895a1faacd0f4cee547a22b4a "pdflatex"
-  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex" 1657548677 9727 545e62e858cd1fbbfe18302b4c4fa5e2 ""
-  "mnras_template.aux" 1657549159 2587 929a48c895a1faacd0f4cee547a22b4a "pdflatex"
+  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.aux" 1657626219 2587 929a48c895a1faacd0f4cee547a22b4a "pdflatex"
+  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex" 1657626216 9735 a7be90d03ff68425915c3ca07c427c17 ""
+  "mnras_template.aux" 1657626219 2587 929a48c895a1faacd0f4cee547a22b4a ""
   "mnras_template.bbl" 1657549156 952 26bc3c1b7ce70c13ad4a8f632e281ac4 "bibtex mnras_template"
-  "mnras_template.out" 1657549159 828 cc5e7fd87da9c42771f6c192b48c233a "pdflatex"
+  "mnras_template.out" 1657626219 828 cc5e7fd87da9c42771f6c192b48c233a ""
   (generated)
   "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.pdf"
-  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.out"
   "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.log"
   "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.aux"
+  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.out"

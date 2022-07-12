@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  11 JUL 2022 16:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  12 JUL 2022 13:43
 entering extended mode
 **f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex
 (f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex
@@ -641,13 +641,13 @@ Package rerunfilecheck Info: File `mnras_template.out' has not changed.
 Here is how much of TeX's memory you used:
  13543 strings out of 479321
  185901 string characters out of 2866501
- 489669 words of memory out of 3000000
+ 489677 words of memory out of 3000000
  30757 multiletter control sequences out of 15000+600000
  502270 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,9n,91p,1216b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on f:/universita\DataScience\Financial\Progetto\Report\mnras_template.pdf (2 pages, 184467 bytes).
+Output written on f:/universita\DataScience\Financial\Progetto\Report\mnras_template.pdf (2 pages, 185385 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
