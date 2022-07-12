@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  12 JUL 2022 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  12 JUL 2022 16:30
 entering extended mode
 **f:/universita/DataScience/Financial/Progetto/Report/main.tex
 (f:/universita/DataScience/Financial/Progetto/Report/main.tex
@@ -1372,14 +1372,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 173.
+(Font)              scaled to size 10.95pt on input line 188.
 
-Overfull \hbox (254.57777pt too wide) in paragraph at lines 175--184
+Overfull \hbox (12.16585pt too wide) in paragraph at lines 189--202
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 188.
+(Font)              scaled to size 12.0pt on input line 204.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/XCharter-TLF/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1388,22 +1388,22 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1789) in paragraph at lines 188--188
+Underfull \hbox (badness 1789) in paragraph at lines 204--204
 \T1/cmtt/m/n/12 / / machinelearningmastery . com /
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 188--188
+Underfull \hbox (badness 6592) in paragraph at lines 204--204
 \T1/cmtt/m/n/12 xgboost -[] for -[] time -[] series -[]
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 188--188
+Underfull \hbox (badness 1917) in paragraph at lines 204--204
 \T1/XCharter-TLF/m/it/12 (+20) TBATS in Python\T1/XCharter-TLF/m/n/12 (+20) . \T1/XCharter-TLF/m/sc/12 (+20) url\T1/XCharter-TLF/m/n/12 (+20) : []$\T1/cmtt/m/n/12 https : / /
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 188--188
+Underfull \hbox (badness 1735) in paragraph at lines 204--204
 \T1/cmtt/m/n/12 multiple -[] seasonalities -[] using -[]
  []
 
@@ -1424,15 +1424,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25672 strings out of 479321
- 432014 string characters out of 2866501
+ 25673 strings out of 479321
+ 432045 string characters out of 2866501
  1270473 words of memory out of 3000000
  42479 multiletter control sequences out of 15000+600000
- 510179 words of font info for 184 fonts, out of 8000000 for 9000
+ 510304 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,11n,78p,1191b,2353s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Ruben\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/xcharter/xch_yelf2i.enc}{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/xcharter/xch1_co4ru4.enc}{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/xcharter/xch_rydp4l.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/xcharter/XCharter-Italic.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on f:/universita\DataScience\Financial\Progetto\Report\main.pdf (4 pages, 272546 bytes).
+Output written on f:/universita\DataScience\Financial\Progetto\Report\main.pdf (4 pages, 273003 bytes).
 PDF statistics:
  229 PDF objects out of 1000 (max. 8388607)
  30 named destinations out of 1000 (max. 500000)

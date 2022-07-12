@@ -168,22 +168,38 @@
 	% Dopo aver fatto queste operazioni, facendo partire il prezzo  da 100 e sommando o sottraendo a questo con cadenza settimanale il rendimento di ciascuna settimana, abbiamo potuto confrontare graficamente con un grafico delle serie storiche i rendimenti settimanali del portafoglio da noi costruito con i rendimenti settimanali dell'indice FTSE MIB, osservando come il rendimento del portafoglio sia prevalentemente maggiore di quello generato dall’indice.
 	
 	% Example table
+	% \begin{table}[H]
+	% 	\centering
+	% 	\caption{Table containing the expected returns and risks of the created portfolios}
+		
+	% 	\begin{tabular}{ccccccc} % four columns, alignment for each
+	% 		\hline
+	% 		 / & Beta & R-Squared & Variance & Residual Variance & Return & FTSE-MIB \\
+	% 		\hline
+	% 		Expected Return & 102.07 & 99.12 & 102.48 &  99.12 &  99.12 & 99.27\\
+	% 		Risk & 11.26 & 3.13 & 14.20 & 3.13 & 4.63 &  2.52\\
+		
+	% 		\hline
+	% 	\end{tabular}
+	% \end{table}
+	
 	\begin{table}[H]
 		\centering
-		\caption{Table containing the expected returns and risks of the created portfolios}
-		
-		\begin{tabular}{ccccccc} % four columns, alignment for each
+		\caption{Table containing the expected returns and risks of the created portfolios, calculated with an initial investment of 100 euros}
+		\begin{tabular}{ccc} % four columns, alignment for each
 			\hline
-			 / & Beta & R-Squared & Variance & Residual Variance & Return & FTSE-MIB \\
+			/ & Expected Return & Risk\\
 			\hline
-			Expected Return & 102.07 & 99.12 & 102.48 &  99.12 &  99.12 & 99.27\\
-			Risk & 11.26 & 3.13 & 14.20 & 3.13 & 4.63 &  2.52\\
+			Beta& 102.07 & 11.26\\
+			R-Squared & 99.12 & 3.13\\
+			Variance & 102.48 & 14.21\\
+			Residual Variance & 99.12 & 3.13\\
+			Return & 100.04 & 4.63 \\
+			FTSE-MIB & 99.26 & 2.52\\
 		
 			\hline
 		\end{tabular}
 	\end{table}
-	
-	
 \nocite{*} %aggiunge a bibliografia gli elementi non citati nel testo
 \printbibliography[title={Bibliografia}] %Prints bibliography
 
