@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex mnras_template"] 1657549156 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1657626220
+["bibtex mnras_template"] 1657631151 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1657631304
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/bibtex/bst/mnras/mnras.bst" 1591886186 43376 8463aa2cc1948e346d5641ca59bb4619 ""
   "example.bib" 1657108892 787 254cb0d9dfcd4686d7da9bd2c0a919ee ""
-  "mnras_template.aux" 1657626219 2587 929a48c895a1faacd0f4cee547a22b4a ""
+  "mnras_template.aux" 1657631154 3407 a8f465baea131d97997aba6e1d4660d2 ""
   (generated)
   "mnras_template.bbl"
   "mnras_template.blg"
-["pdflatex"] 1657626216 "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex" "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.pdf" "mnras_template" 1657626220
+["pdflatex"] 1657631151 "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex" "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.pdf" "mnras_template" 1657631304
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm0900.tfm" 993062120 3156 6d4f5755d77638125f6f89de4f3bb757 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm" 1233951848 1496 c79f6914c6d39ffb3759967363d1be79 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm" 1233951848 1516 a3bf6a5e7ec4401b1f52092dfaaed242 ""
@@ -66,6 +66,7 @@
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1525740614 3124 3813fd4c981d99822890a2861b0d274c ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/tfm/public/newtx/NewTXBMI.tfm" 1572045905 1392 a17207635f5e84ce99b1f3136dfb1ea1 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/tfm/public/newtx/NewTXMI.tfm" 1572045875 1408 ef71a9098da4d5a1a85b5920860b6731 ""
+  "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/tfm/public/newtx/NewTXMI7.tfm" 1572045881 1556 4df22ac3e5cc03ff0898d83d8817c6cf ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/tfm/public/newtx/ntx-Bold-tlf-ot1.tfm" 1639788095 2976 0e6dc2c6c1f88a98285fe5183da02574 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm" 1639788038 11304 f2348f846c9496e73c2ffa3ee3e37703 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm" 1639788038 11264 513b3833c56ba193e1ac9fe3b3c77d6a ""
@@ -98,6 +99,7 @@
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm" 1254938640 1600 20cdf11dab97d5d39e847571f9314407 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb" 1572042088 32541 18cc6d4a67e7278b3acd3373acd68025 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb" 1572040923 32409 1452fa0ce4fabfb48acd5d077e296f6d ""
+  "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb" 1572042356 34733 61fa3c01fac511e451670c1b454ff211 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb" 1634843949 56686 b959be5e2e4a0232f5aa4c1c4be4574a ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb" 1568323740 40320 53cb337366eff502cad8f44871c88e39 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb" 1639788018 239149 b459cdf3364a26072e94167b64f425b2 ""
@@ -107,6 +109,7 @@
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf" 1600449861 956 44be8e0aea9c6d145fc21c9948a6b4b5 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/vf/public/newtx/ntxbmi.vf" 1622596699 2744 38af32e22cedcc285a733370cf5d6ff1 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/vf/public/newtx/ntxmi.vf" 1622596699 2612 4fd3785b7e98639f68f908a08c642071 ""
+  "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/vf/public/newtx/ntxmi7.vf" 1622596699 2576 4000b56c7179792370b883556f71007a ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/vf/public/newtx/ntxmia.vf" 1634848525 2056 17a96727a1080b515c483edfb4650902 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/vf/public/newtx/ntxsy.vf" 1633719035 1772 98ec0ab31216e818611c784f60ef51a5 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/vf/public/newtx/ntxsy7.vf" 1633719035 1900 7edab28ff3dc70ba23d9121ff6e8e785 ""
@@ -150,13 +153,13 @@
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/xstring/xstring.sty" 1626884962 123 a302f2c651a95033260db60e51527ae8 ""
   "example.pdf" 1657180299 25336 b509381da1796fa26da547990eab83d5 ""
-  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.aux" 1657626219 2587 929a48c895a1faacd0f4cee547a22b4a "pdflatex"
-  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex" 1657626216 9735 a7be90d03ff68425915c3ca07c427c17 ""
-  "mnras_template.aux" 1657626219 2587 929a48c895a1faacd0f4cee547a22b4a ""
-  "mnras_template.bbl" 1657549156 952 26bc3c1b7ce70c13ad4a8f632e281ac4 "bibtex mnras_template"
-  "mnras_template.out" 1657626219 828 cc5e7fd87da9c42771f6c192b48c233a ""
+  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.aux" 1657631154 3407 a8f465baea131d97997aba6e1d4660d2 "pdflatex"
+  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex" 1657631303 13073 f355f94c8fecab6e6428fe4a4747bd14 ""
+  "mnras_template.aux" 1657631154 3407 a8f465baea131d97997aba6e1d4660d2 ""
+  "mnras_template.bbl" 1657631151 952 26bc3c1b7ce70c13ad4a8f632e281ac4 "bibtex mnras_template"
+  "mnras_template.out" 1657631154 1709 c3eefea8a7365ba11886cad5c582605b ""
   (generated)
-  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.pdf"
   "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.log"
-  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.aux"
   "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.out"
+  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.aux"
+  "f:/universita/DataScience/Financial/Progetto/Report/mnras_template.pdf"

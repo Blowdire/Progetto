@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  12 JUL 2022 13:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.10)  12 JUL 2022 15:05
 entering extended mode
 **f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex
 (f:/universita/DataScience/Financial/Progetto/Report/mnras_template.tex
@@ -579,77 +579,78 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 104.
+(Font)              scaled to size 9.0pt on input line 106.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 104.
+(Font)              scaled to size 7.3pt on input line 106.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 104.
+(Font)              scaled to size 5.5pt on input line 106.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 104.
+(Font)              size <5> substituted on input line 106.
 
-<example.pdf, id=31, 614.295pt x 794.97pt>
-File: example.pdf Graphic file (type pdf)
-<use example.pdf>
-Package pdftex.def Info: example.pdf  used on input line 139.
-(pdftex.def)             Requested size: 244.0pt x 315.76253pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 142.
+(Font)              scaled to size 8.0pt on input line 156.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 152.
+(Font)              scaled to size 8.0pt on input line 156.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 152.
-(mnras_template.bbl
-LaTeX Info: Redefining \VAN on input line 1.
+(Font)              scaled to size 6.2pt on input line 156.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 1.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 1.
- (C:\Users\Ruben\AppData\Roaming\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+(Font)              scaled to size 6.2pt on input line 156.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 156.
+(C:\Users\Ruben\AppData\Roaming\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1.
+(Font)              scaled to size 8.0pt on input line 156.
  [1{C:/Users/Ruben/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.1 \begin{thebibliography}{}
-                             ]
+]
+<example.pdf, id=75, 614.295pt x 794.97pt>
+File: example.pdf Graphic file (type pdf)
+<use example.pdf>
+Package pdftex.def Info: example.pdf  used on input line 188.
+(pdftex.def)             Requested size: 244.0pt x 315.76253pt.
+ (mnras_template.bbl
+LaTeX Info: Redefining \VAN on input line 1.
+
 
 Package natbib Warning: Empty `thebibliography' environment on input line 21.
 
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 218.
- [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+(Font)              scaled to size 12.0pt on input line 265.
+ [2pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.218 \end{document}
-                    
+l.265 \bsp
+          	% typesetting commentpdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.265 \bsp
+          	% typesetting comment <./example.pdf>] [3
 
- <./example.pdf>] (mnras_template.aux)
+] (mnras_template.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
 Package rerunfilecheck Info: File `mnras_template.out' has not changed.
-(rerunfilecheck)             Checksum: CC5E7FD87DA9C42771F6C192B48C233A;828.
+(rerunfilecheck)             Checksum: C3EEFEA8A7365BA11886CAD5C582605B;1709.
  ) 
 Here is how much of TeX's memory you used:
- 13543 strings out of 479321
- 185901 string characters out of 2866501
- 489677 words of memory out of 3000000
- 30757 multiletter control sequences out of 15000+600000
- 502270 words of font info for 176 fonts, out of 8000000 for 9000
+ 13560 strings out of 479321
+ 186101 string characters out of 2866501
+ 492684 words of memory out of 3000000
+ 30764 multiletter control sequences out of 15000+600000
+ 503074 words of font info for 178 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,9n,91p,1216b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on f:/universita\DataScience\Financial\Progetto\Report\mnras_template.pdf (2 pages, 185385 bytes).
+ 86i,9n,91p,1213b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Ruben/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
+Output written on f:/universita\DataScience\Financial\Progetto\Report\mnras_template.pdf (3 pages, 203163 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
