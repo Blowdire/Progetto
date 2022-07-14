@@ -137,15 +137,23 @@ Finally, last step concerns the analisys of the returns and risks of the portfol
 		\item R-Squared
 	\end{itemize}
 	\section{Portfolios Data}
-	Using the mentioned parameters we obtained 5 different portfolios. For every portfolio we have obtained also the returns.
+	Using the mentioned parameters we obtained 5 different portfolios. For every portfolio we have obtained the returns and the risks.
+	\subsection{Returns}
+	In order to calculate the weekly return of one portfolio for the week i analysis we took the logarithmic return at the starting day of the next week and we substract it by the log return at the start of the week.
+	\[
+		WR_t = LogRet_{t+1} - LogRet_{t-7}
+	\]
+	\subsection{Risk}
+	In order to calculate the weekly risk of the portfolio we calculate the variance-covariance matrix,
 	\subsection{Portfolio returns}
 	In order to obtain the portfolio returns we used the calculated weekly logarithmic returns, we made the inverse transformation in order to obtain the weekly return and multiplicated for the available investment.
 	\[
 	r_{t}	= r_{t-1}*e^{logret_{t}}
 	\]
+	The portfolio annual return is obtained multiplicating by 52 the weekly portfolios returns
 	\subsection{Beta Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by the beta parameter, and is rebalanced every week.\\
-	The portfolio expected return,on the five years analized, is 107.89 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.73.
+	The portfolio expected annual returns are equal to 9.1\%, while the annual risk associated to the portfolio is 36.23\%. The efficiency of the portfolio is equal to 27.99\%.
 	\subsection{R-Squared Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by the R-Squared parameter, and is rebalanced every week.\\
 	The portfolio expected return,on the five years analized, is 102.40 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.33.
@@ -163,27 +171,6 @@ Finally, last step concerns the analisys of the returns and risks of the portfol
 	This portfolio is obtained by following the FTSE-MIB index.
 	The portfolio expected return,on the five years analized, is 99.27 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 2.52.
 	
-	
-	
-	% La realizzazione di questo progetto ha avuto come obbiettivo quello di costruire diversi portafogli, ciascuno sulla base di specifici parametri come $R^2$, $\beta^2$ (rischio sistematico), $\sigma^2$ (rischio totale), al fine di effettuare un confronto in termini di rendimento medio atteso, volatilità e rapporto tra i due, di tutti i portafogli con il principale indice di benchmark dei mercati azionari italiani il FTSE MIB. Per fare ciò siamo partiti da una serie temporale giornaliera riguardante i prezzi di un insieme di stocks e abbiamo considerato come spazio temporale di investimento 5 anni, precisamente dal 2017-06-08 al 2022-06-08. Per ogni stock nell'arco temporale è stata eseguita una regressione dei log-returns ottenuti…(inserire calcolo) su un campione di 180 giorni, ottenendo $R^2$, $\alpha$ e $\beta$. Successivamente, abbiamo selezionato il primo e ultimo 10 per cento delle stocks ordinate in ordine decrescente sulla base ad esempio dell' $R^2$, al fine di costruire un portafoglio caratterizzato da assets di uguale peso, che è stato ribilanciato settimanalmente fino alla fine del campione.
-	% \\Abbiamo calcolato i rendimenti settimanali di ciascuna stock, mediante la differenza tra il log-return corrente e quello della settimana precedente, al fine di calcolare i rendimenti settimanali dell'intero portafoglio come la media pesata dei rendimenti delle singole stock calcolate precedentemente. Inoltre, abbiamo ottenuto i rendimenti settimanali dell'indice FTSE MIB come la differenza tra il rendimento della settimana successiva e quello della settimana precedente. 
-	% Dopo aver fatto queste operazioni, facendo partire il prezzo  da 100 e sommando o sottraendo a questo con cadenza settimanale il rendimento di ciascuna settimana, abbiamo potuto confrontare graficamente con un grafico delle serie storiche i rendimenti settimanali del portafoglio da noi costruito con i rendimenti settimanali dell'indice FTSE MIB, osservando come il rendimento del portafoglio sia prevalentemente maggiore di quello generato dall’indice.
-	
-	% Example table
-	% \begin{table}[H]
-	% 	\centering
-	% 	\caption{Table containing the expected returns and risks of the created portfolios}
-		
-	% 	\begin{tabular}{ccccccc} % four columns, alignment for each
-	% 		\hline
-	% 		 / & Beta & R-Squared & Variance & Residual Variance & Return & FTSE-MIB \\
-	% 		\hline
-	% 		Expected Return & 102.07 & 99.12 & 102.48 &  99.12 &  99.12 & 99.27\\
-	% 		Risk & 11.26 & 3.13 & 14.20 & 3.13 & 4.63 &  2.52\\
-		
-	% 		\hline
-	% 	\end{tabular}
-	% \end{table}
 	\section{Results}
 		Finally we made a table and a chart in order to compare all the portfolios.
 	\begin{table}[H]
@@ -193,12 +180,12 @@ Finally, last step concerns the analisys of the returns and risks of the portfol
 			\hline
 			/ & A. Ret(\%) & A. Risk(\&) & Eff.(\%)\\
 			\hline
-			Beta & -2.86 & 34.07 & -9.1\\
-			R-Squared & 1.2 & 31.23 & 3.5\\
-			Variance & -3.39 & 32.47 & -10.44\\
-			Res. Var. & 1.2& 33.7 & 3.56\\
-			Return & -1.89 & 34.27 & -5.54\\
-			FTSE MIB &  0.26 & 8.63 & 3.07\\
+			Beta 			& 9.1 			& 36.23 & 27.99\\
+			R-Squared & 15.2 		& 32.51 & 42.1\\
+			Variance 	& 6.08 		& 35.25 & 17.26\\
+			Res. Var. & 15.2		& 35.08 & 43.48\\
+			Return 		& -114.18 & 34.27 & -417.04\\
+			FTSE MIB 	& 0.26 		& 8.63 	& 3.07\\
 		
 			\hline
 		\end{tabular}

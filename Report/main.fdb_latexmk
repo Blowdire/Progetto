@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1657804339 "main.bcf" "main.bbl" "main" 1657804352
-  "main.bcf" 1657804351 106909 a8aef402e0d20b35e0a41d67f0060bb3 ""
+["biber main"] 1657804339 "main.bcf" "main.bbl" "main" 1657805240
+  "main.bcf" 1657805240 106909 a8aef402e0d20b35e0a41d67f0060bb3 ""
   "sample.bib" 1657804322 769 262a0631a962a7e61e82b9eddfa6edc3 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1657804347 "f:/universita/DataScience/Financial/Progetto/Report/main.tex" "f:/universita/DataScience/Financial/Progetto/Report/main.pdf" "main" 1657804352
+["pdflatex"] 1657805235 "f:/universita/DataScience/Financial/Progetto/Report/main.tex" "f:/universita/DataScience/Financial/Progetto/Report/main.pdf" "main" 1657805240
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768654 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768654 4484 b828043cbd581d289d955903c1339981 ""
@@ -199,20 +199,20 @@
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/xcharter/t1xcharter-tlf.fd" 1498587035 2098 296c2460cd905b27e5e33e914ed19616 ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/xcharter/ts1xcharter-tlf.fd" 1596675824 1410 e9f58f0ca20506a78c9bfb6e18b5d1ea ""
   "C:/Users/Ruben/AppData/Roaming/MiKTeX/tex/latex/xstring/xstring.sty" 1626884962 123 a302f2c651a95033260db60e51527ae8 ""
-  "Immagini//port_ret_complete_small.png" 1657780842 86154 80f3febb2c07dd56556ee9a62bcd6ce0 ""
-  "f:/universita/DataScience/Financial/Progetto/Report/main.aux" 1657804351 5378 024f79113c2733fc50cb669bcf077946 "pdflatex"
-  "f:/universita/DataScience/Financial/Progetto/Report/main.tex" 1657804322 13404 cc815ec0e2f6a6c52b9883bb9631f4fe ""
-  "main.aux" 1657804351 5378 024f79113c2733fc50cb669bcf077946 ""
+  "Immagini//port_ret_complete_small.png" 1657804874 60721 ad3d18beecf7f3385d6ebf7406bb2092 ""
+  "f:/universita/DataScience/Financial/Progetto/Report/main.aux" 1657805240 5544 b93e0f891ee4fab944acf91831bbf3da "pdflatex"
+  "f:/universita/DataScience/Financial/Progetto/Report/main.tex" 1657805229 11194 d826a8ff4fbadb9b951eaefebc62d87e ""
+  "main.aux" 1657805240 5544 b93e0f891ee4fab944acf91831bbf3da ""
   "main.bbl" 1657804342 3888 fff79b3f77fd0f53719e7511deba56ab "biber main"
-  "main.out" 1657804351 2430 229da7c26a050e991f5814cf7b6852ed ""
-  "main.run.xml" 1657804351 2522 e17f165f09b828ede643f70b4f100580 ""
-  "main.toc" 1657804351 2212 b51fbff649c73b62fd34be0af491ad4a ""
+  "main.out" 1657805240 2523 e8fa1b1354e455d335872c0d26f26778 ""
+  "main.run.xml" 1657805240 2522 e17f165f09b828ede643f70b4f100580 ""
+  "main.toc" 1657805240 2320 ced9241e8ea21faf7c490cae0888f061 ""
   "structure.tex" 1655307154 6298 23723fc8b10deb4714888a953312c4d6 ""
   (generated)
-  "f:/universita/DataScience/Financial/Progetto/Report/main.pdf"
-  "f:/universita/DataScience/Financial/Progetto/Report/main.run.xml"
-  "f:/universita/DataScience/Financial/Progetto/Report/main.log"
-  "f:/universita/DataScience/Financial/Progetto/Report/main.out"
-  "f:/universita/DataScience/Financial/Progetto/Report/main.bcf"
   "f:/universita/DataScience/Financial/Progetto/Report/main.aux"
   "f:/universita/DataScience/Financial/Progetto/Report/main.toc"
+  "f:/universita/DataScience/Financial/Progetto/Report/main.bcf"
+  "f:/universita/DataScience/Financial/Progetto/Report/main.pdf"
+  "f:/universita/DataScience/Financial/Progetto/Report/main.out"
+  "f:/universita/DataScience/Financial/Progetto/Report/main.log"
+  "f:/universita/DataScience/Financial/Progetto/Report/main.run.xml"
