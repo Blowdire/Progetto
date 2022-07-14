@@ -144,19 +144,20 @@
 	\]
 	\subsection{Beta Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by the beta parameter, and is rebalanced every week.\\
-	The portfolio expected return,on the five years analized, is 102.067 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 11.26.
+	The portfolio expected return,on the five years analized, is 107.89 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.73.
 	\subsection{R-Squared Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by the R-Squared parameter, and is rebalanced every week.\\
-	The portfolio expected return,on the five years analized, is 99.12 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 3.13.
+	The portfolio expected return,on the five years analized, is 102.40 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.33.
 	\subsection{Stock variance Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by their stock return variance, and is rebalanced every week.\\
-	The portfolio expected return,on the five years analized, is 102.48 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 14.21.
+	The portfolio expected return,on the five years analized, is 106.62 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.50.
 	\subsection{Residual variance Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by their rolling regression residual variance, and is rebalanced every week.\\
-	The portfolio expected return,on the five years analized, is 99.12 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 3.13.
+	The portfolio expected return,on the five years analized, is 102.40 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.67.
 	\subsection{Weekly returns Portfolio}
-	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by their weekly returns, and is rebalanced every week.\\
-	The portfolio expected return,on the five years analized, is 100.04 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.62.
+	This portfolio is obtained by taking the top 20\% of the stocks, odered by their weekly returns, and is rebalanced every week.\\
+	This aproach is a strategy called Time Series Momentum Strategy, which consists in selecting the stocks of the portfolio by looking at past returns ant taking only the best performing stocks, in this case we used the previous week best performing stocks.
+	The portfolio expected return,on the five years analized, is 108.99 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.76.
 	\subsection{FTSE-MIB Portfolio}
 	This portfolio is obtained by following the FTSE-MIB index.
 	The portfolio expected return,on the five years analized, is 99.27 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 2.52.
@@ -187,16 +188,16 @@
 	\begin{table}[H]
 		\centering
 		\caption{Table containing the expected returns and risks of the created portfolios, calculated with an initial investment of 100 euros}
-		\begin{tabular}{ccc} % four columns, alignment for each
+		\begin{tabular}{cccc} % four columns, alignment for each
 			\hline
-			/ & Expected Return & Risk\\
+			/ & A. Ret(\%) & A. Risk(\&) & Eff.(\%)\\
 			\hline
-			Beta& 102.07 & 11.26\\
-			R-Squared & 99.12 & 3.13\\
-			Variance & 102.48 & 14.21\\
-			Residual Variance & 99.12 & 3.13\\
-			Return & 100.04 & 4.63 \\
-			FTSE-MIB & 99.26 & 2.52\\
+			Beta & -2.86 & 34.07 & -9.1\\
+			R-Squared & 1.2 & 31.23 & 3.5\\
+			Variance & -3.39 & 32.47 & -10.44\\
+			Res. Var. & 1.2& 33.7 & 3.56\\
+			Return & -1.89 & 34.27 & -5.54\\
+			FTSE MIB &  0.26 & 8.63 & 3.07\\
 		
 			\hline
 		\end{tabular}
@@ -210,7 +211,7 @@
 		\end{figure}
 
 	\section{Conclusions}
-	As we can see from the obtained data relative to the portfolios, the riskier portfolios are the one that yield the higher returns. Some future work on this project could consist of adding more portfolios using more different parameters, and implementing a momentum strategy in order to obtain more returns from the portfolio.
+	As wee can see by the results the best performing portfolios are the ones built with Residuals variance and R-Squared as paramenters. Many portfolios have negative annual returns, probably this negative annual return is caused because the dataset contains daily data including the years 2020-2022; it is possible that theese bad results are caused by the covid 19 pandemic and the war in Ukraine.
 \nocite{*} %aggiunge a bibliografia gli elementi non citati nel testo
 \printbibliography[title={Bibliography}] %Prints bibliography
 
