@@ -19,6 +19,33 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Time-Series_Momentum}{online}{}
+      \name{author}{1}{}{%
+        {{hash=41337015a7cc923d96915446f5664131}{%
+           family={Hom},
+           familyi={H\bibinitperiod},
+           given={Darren},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{41337015a7cc923d96915446f5664131}
+      \strng{fullhash}{41337015a7cc923d96915446f5664131}
+      \strng{bibnamehash}{41337015a7cc923d96915446f5664131}
+      \strng{authorbibnamehash}{41337015a7cc923d96915446f5664131}
+      \strng{authornamehash}{41337015a7cc923d96915446f5664131}
+      \strng{authorfullhash}{41337015a7cc923d96915446f5664131}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Turn Cross-Sectional into Time-Series Momentum (and be home in time for dinner)}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://alphaarchitect.com/2020/01/how-to-turn-cross-sectional-into-time-series-momentum-and-be-home-in-time-for-dinner/
+      \endverb
+      \verb{url}
+      \verb https://alphaarchitect.com/2020/01/how-to-turn-cross-sectional-into-time-series-momentum-and-be-home-in-time-for-dinner/
+      \endverb
+    \endentry
     \entry{FTSEMIB}{online}{}
       \name{author}{1}{}{%
         {{hash=159e5009fafb1d13924beaa86a19d407}{%

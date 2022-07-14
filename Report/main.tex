@@ -144,47 +144,54 @@ Finally, last step concerns the analisys of the returns and risks of the portfol
 		WR_t = LogRet_{t+1} - LogRet_{t-7}
 	\]
 	\subsection{Risk}
-	In order to calculate the weekly risk of the portfolio we calculate the variance-covariance matrix,
+	In order to calculate the weekly risk of the portfolio we calculate the variance-covariance matrix ant then by using the weights of the assets we get the variance of the portfolio. Finally we make the square root of the variance in order to obtain the standard deviation.
+	\[
+	\sigma_P = \sqrt{\sum_{i=1}^{n}\sum_{j=1}^{n}w_i w_j \sigma_{i,j}}	
+	\]
 	\subsection{Portfolio returns}
 	In order to obtain the portfolio returns we used the calculated weekly logarithmic returns, we made the inverse transformation in order to obtain the weekly return and multiplicated for the available investment.
 	\[
 	r_{t}	= r_{t-1}*e^{logret_{t}}
 	\]
-	The portfolio annual return is obtained multiplicating by 52 the weekly portfolios returns
+	The portfolio annual return is obtained multiplicating by 52 the weekly portfolios logarithmic returns
 	\subsection{Beta Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by the beta parameter, and is rebalanced every week.\\
 	The portfolio expected annual returns are equal to 9.1\%, while the annual risk associated to the portfolio is 36.23\%. The efficiency of the portfolio is equal to 27.99\%.
 	\subsection{R-Squared Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by the R-Squared parameter, and is rebalanced every week.\\
-	The portfolio expected return,on the five years analized, is 102.40 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.33.
+	The portfolio expected annual returns are equal to 15.2\%, while the annual risk associated to the portfolio is 32.51\%. The efficiency of the portfolio is equal to 42.1\%.
 	\subsection{Stock variance Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by their stock return variance, and is rebalanced every week.\\
-	The portfolio expected return,on the five years analized, is 106.62 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.50.
+	The portfolio expected annual returns are equal to 6.08\%, while the annual risk associated to the portfolio is 35.25\%. The efficiency of the portfolio is equal to 17.26\%.
 	\subsection{Residual variance Portfolio}
 	This portfolio is obtained by taking the top and bottom 10\% of the stocks, odered by their rolling regression residual variance, and is rebalanced every week.\\
-	The portfolio expected return,on the five years analized, is 102.40 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.67.
-	\subsection{Weekly returns Portfolio}
+	The portfolio expected annual returns are equal to 15.2\%, while the annual risk associated to the portfolio is 35.08\%. The efficiency of the portfolio is equal to 43.48\%.
+	\subsection{Cross Sectional Momentum Portfolio}
 	This portfolio is obtained by taking the top 20\% of the stocks, odered by their weekly returns, and is rebalanced every week.\\
-	This aproach is a strategy called ross Sectional Momentum Strategy, which consists in selecting the stocks of the portfolio by looking at past returns ant taking only the best performing stocks, in this case we used the previous week best performing stocks.
-	The portfolio expected return,on the five years analized, is 108.99 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 4.76.
+	This aproach is a strategy called Cross Sectional Momentum Strategy, which consists in selecting the stocks of the portfolio by looking at past returns ant taking only the best performing stocks, in this case we used the previous week best performing stocks.
+	The portfolio expected annual returns are equal to -114.18\%, while the annual risk associated to the portfolio is 34.27\%. The efficiency of the portfolio is equal to -414.04\%.
 	\subsection{FTSE-MIB Portfolio}
 	This portfolio is obtained by following the FTSE-MIB index.
-	The portfolio expected return,on the five years analized, is 99.27 euros, with an initial investment of 100 euros. The portfolio risk, calculated on the returns of a 100 euros investment, is equal to 2.52.
+	The portfolio expected annual returns are equal to 0.26\%, while the annual risk associated to the portfolio is 8.63\%. The efficiency of the portfolio is equal to 3.07\%.
 	
 	\section{Results}
 		Finally we made a table and a chart in order to compare all the portfolios.
+		We also calculated the efficiency of the portfolio:
+		\[
+			Eff_P = \frac{Ret_{Ap}}{Risk_{Ap}}	
+		\]
 	\begin{table}[H]
 		\centering
-		\caption{Table containing the expected returns and risks of the created portfolios, calculated with an initial investment of 100 euros}
+		\caption{Table containing the expected annual returns, risks and efficiency of the created portfolios.}
 		\begin{tabular}{cccc} % four columns, alignment for each
 			\hline
-			/ & A. Ret(\%) & A. Risk(\&) & Eff.(\%)\\
+			/ & A. Ret(\%) & A. Risk(\%) & Eff.(\%)\\
 			\hline
 			Beta 			& 9.1 			& 36.23 & 27.99\\
 			R-Squared & 15.2 		& 32.51 & 42.1\\
 			Variance 	& 6.08 		& 35.25 & 17.26\\
 			Res. Var. & 15.2		& 35.08 & 43.48\\
-			Return 		& -114.18 & 34.27 & -417.04\\
+			Momentum 		& -114.18 & 34.27 & -417.04\\
 			FTSE MIB 	& 0.26 		& 8.63 	& 3.07\\
 		
 			\hline
@@ -194,12 +201,12 @@ Finally, last step concerns the analisys of the returns and risks of the portfol
 		\begin{figure}[H]
 			\caption{Line chart of portfolios returns}
 			\begin{center}
-				\includegraphics[width=75mm,scale=1]{port_ret_complete_small.png}
+				\includegraphics[width=100mm,scale=1.5]{port_ret_complete_small.png}
 			\end{center}
 		\end{figure}
 
 	\section{Conclusions}
-	As wee can see by the results the best performing portfolios are the ones built with Residuals variance and R-Squared as paramenters. Many portfolios have negative annual returns, probably this negative annual return is caused because the dataset contains daily data including the years 2020-2022; it is possible that theese bad results are caused by the covid 19 pandemic and the war in Ukraine.
+	As wee can see by the results the best performing portfolios are the ones built with Residuals variance and R-Squared as paramenters. Also, the portfolio built with momentum strategy have the worst performace across all portfolio. The FTSE MIB portfolio, which is a proxy of the market, is the less risky portfolio but it also have smaller annual return compared to the other portfolios. 
 \nocite{*} %aggiunge a bibliografia gli elementi non citati nel testo
 \printbibliography[title={Bibliography}] %Prints bibliography
 \end{document}

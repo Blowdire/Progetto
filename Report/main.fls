@@ -1220,10 +1220,10 @@ INPUT .\Immagini\\port_ret_complete_small.png
 INPUT .\Immagini\\port_ret_complete_small.png
 INPUT .\Immagini\\port_ret_complete_small.png
 INPUT .\Immagini\\port_ret_complete_small.png
-INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\tfm\public\xcharter\XCharter-Roman-tlf-sc-t1.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
 INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\vf\public\xcharter\XCharter-Italic-tlf-t1.vf
 INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\tfm\public\xcharter\XCharter-Italic-tlf-t1--base.tfm
+INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\tfm\public\xcharter\XCharter-Roman-tlf-sc-t1.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
 INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\vf\public\xcharter\XCharter-Roman-tlf-sc-t1.vf
 INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\tfm\public\xcharter\XCharter-Roman-tlf-sc-t1--base.tfm
 INPUT main.aux
@@ -1243,6 +1243,8 @@ INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\type1\public\xcharter\XCharter
 INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\type1\public\xcharter\XCharter-Italic.pfb
 INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\type1\public\xcharter\XCharter-Roman.pfb
 INPUT C:\Users\Ruben\AppData\Roaming\MiKTeX\fonts\type1\public\xcharter\XCharter-Roman.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
